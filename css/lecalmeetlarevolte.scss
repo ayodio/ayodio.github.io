@@ -1,0 +1,52 @@
+$title_font : 'Special Elite', cursive;
+$text_font : 'Oswald', sans-serif;
+
+$background-black : #000000;
+$font-color : #dddddd;
+
+body {
+  font-family: $text_font;
+  background-color: $background-black;
+  color: $font-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title_font;
+}
+
+.hero {
+  color : white;
+  background-color: black;
+  img {
+    width: 75%;
+    height: auto;
+  }
+}
+
+.values {
+  a {
+    color : white;
+    &.fb:hover {
+      color: #3b5998;
+    }
+    &.yt:hover {
+      color: #cc181e;
+    }
+    &.sc:hover {
+      color: #ff7700;
+    }
+    @media (max-width: 550px) {
+      i {
+        margin-top: 5rem;
+      }
+    }
+  }
+}
+
+.mail {
+  margin-top: 10rem;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

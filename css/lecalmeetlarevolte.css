@@ -1,0 +1,34 @@
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #000000;
+  color: #dddddd; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Special Elite", cursive; }
+
+.hero {
+  color: white;
+  background-color: black; }
+  .hero img {
+    width: 75%;
+    height: auto; }
+
+.values a {
+  color: white; }
+  .values a.fb:hover {
+    color: #3b5998; }
+  .values a.yt:hover {
+    color: #cc181e; }
+  .values a.sc:hover {
+    color: #ff7700; }
+  @media (max-width: 550px) {
+    .values a i {
+      margin-top: 5rem; } }
+
+.mail {
+  margin-top: 10rem; }
+  .mail a {
+    color: white;
+    text-decoration: none; }
+
+/*# sourceMappingURL=lecalmeetlarevolte.css.map */
