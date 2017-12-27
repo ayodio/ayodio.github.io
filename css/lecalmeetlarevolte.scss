@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  @media (min-width: 750px) {
+  @media (min-width: 550px) {
     box-sizing: border-box;
     position: relative;
     min-height: 50%;
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .values {
-  @media (min-width: 750px) {
+  @media (min-width: 550px) {
     box-sizing: border-box;
     position: relative;
     min-height: 50%;
