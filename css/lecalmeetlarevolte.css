@@ -1,4 +1,9 @@
+html {
+  height: 100%; }
+
 body {
+  height: 100%;
+  min-height: 100%;
   font-family: "Oswald", sans-serif;
   background-color: #000000;
   color: #dddddd; }
@@ -9,10 +14,20 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   color: white;
   background-color: black; }
+  @media (min-width: 750px) {
+    .hero {
+      box-sizing: border-box;
+      position: relative;
+      min-height: 50%; } }
   .hero img {
     width: 75%;
     height: auto; }
 
+@media (min-width: 750px) {
+  .values {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 50%; } }
 .values a {
   color: white; }
   .values a.fb:hover {
