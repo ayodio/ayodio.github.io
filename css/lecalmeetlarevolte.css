@@ -36,4 +36,9 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
   text-decoration: none; }
 
+.photo img {
+  display: block;
+  max-width: 100%;
+  border: solid 1px #707070; }
+
 /*# sourceMappingURL=lecalmeetlarevolte.css.map */

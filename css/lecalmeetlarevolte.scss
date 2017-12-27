@@ -3,7 +3,7 @@ $text_font : 'Oswald', sans-serif;
 
 $background-black : #000000;
 $font-color : #dddddd;
-
+$grey : #707070;
 
 
 body {
@@ -58,5 +58,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
     vertical-align: middle;
     text-decoration: none;
+  }
+}
+
+.photo {
+  img {
+    display: block;
+    max-width: 100%;
+    border: solid 1px $grey;
   }
 }
