@@ -4,6 +4,8 @@ $text_font : 'Oswald', sans-serif;
 $background-black : #000000;
 $font-color : #dddddd;
 
+
+
 body {
   font-family: $text_font;
   background-color: $background-black;
@@ -47,6 +49,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10rem;
   a {
     color: white;
+    text-decoration: none;
+  }
+}
+
+.pro {
+  a {
+    font-size: 2em;
+    vertical-align: middle;
     text-decoration: none;
   }
 }
