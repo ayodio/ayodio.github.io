@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 25%; }
 
   .values {
-    min-height: 75%; } }
+    min-height: 75%; }
+    .values a {
+      margin-top: 0; }
+      .values a i {
+        margin-top: 6%; } }
 
 /*# sourceMappingURL=lecalmeetlarevolte.css.map */
