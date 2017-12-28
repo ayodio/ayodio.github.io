@@ -23,22 +23,27 @@ h1, h2, h3, h4, h5, h6 {
     width: 75%;
     height: auto; }
 
-@media (min-width: 550px) {
-  .values {
-    box-sizing: border-box;
-    position: relative;
-    min-height: 50%; } }
-.values a {
-  color: white; }
-  .values a.fb:hover {
-    color: #3b5998; }
-  .values a.yt:hover {
-    color: #cc181e; }
-  .values a.sc:hover {
-    color: #ff7700; }
-  @media (max-width: 550px) {
-    .values a i {
-      margin-top: 5rem; } }
+.values {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5)), url("../images/web_back.jpg");
+  background-position-y: bottom;
+  background-position-x: center;
+  background-size: cover; }
+  @media (min-width: 550px) {
+    .values {
+      box-sizing: border-box;
+      position: relative;
+      min-height: 50%; } }
+  .values a {
+    color: white; }
+    .values a.fb:hover {
+      color: #3b5998; }
+    .values a.yt:hover {
+      color: #cc181e; }
+    .values a.sc:hover {
+      color: #ff7700; }
+    @media (max-width: 550px) {
+      .values a i {
+        margin-top: 5rem; } }
 
 .mail {
   margin-top: 10rem; }
