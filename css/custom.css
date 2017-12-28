@@ -7,7 +7,7 @@
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-  padding: 4rem 0 3rem;
+
   text-align: center;
 }
 .section-heading,
@@ -71,10 +71,10 @@
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
-    padding: 12rem 0 11rem;
+
   }
   .hero {
-    padding-bottom: 12rem;
+
     text-align: center;
   }
   .phone {
@@ -105,10 +105,10 @@
     font-size: 2.6rem;
   }
   .section {
-    padding: 14rem 0 15rem;
+
   }
   .hero {
-    padding: 16rem 0 14rem;
+
   }
   .section-description {
     max-width: 60%;
@@ -132,10 +132,10 @@
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   .section {
-    padding: 10rem 0 8rem;
+
   }
   .hero {
-    padding: 11rem 0;
+
   }
   .hero-heading {
     font-size: 3.0rem;
