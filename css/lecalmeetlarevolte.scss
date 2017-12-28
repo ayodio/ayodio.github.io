@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .values {
+  background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) ), url('../images/IMG_2084.jpg');
   @media (min-width: 550px) {
     box-sizing: border-box;
     position: relative;
