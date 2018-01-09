@@ -31,7 +31,8 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
   position: relative;
   min-height: 55%;
-  padding: 5% 0; }
+  padding: 5% 0;
+  color: #dddddd; }
   .values a {
     color: white; }
     .values a.fb:hover {
@@ -54,6 +55,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   vertical-align: middle;
   text-decoration: none; }
+.pro .row {
+  margin-top: 2em; }
+  .pro .row:first-of-type {
+    margin-top: 0; }
 
 .photo img {
   display: block;
@@ -80,5 +85,15 @@ h1, h2, h3, h4, h5, h6 {
       margin-top: 0; }
       .values a i {
         margin-top: 6%; } }
+/* dates page */
+.dates .row {
+  text-align: left;
+  font-size: 1.2em; }
+
+/*icon position*/
+.pro .fa {
+  position: relative;
+  top: -3px;
+  padding-right: 0.3em; }
 
 /*# sourceMappingURL=lecalmeetlarevolte.css.map */

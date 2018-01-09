@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   min-height: 55%;
   padding : 5% 0;
+  color: $font-color;
   a {
     color : white;
     &.fb:hover {
@@ -75,6 +76,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
     vertical-align: middle;
     text-decoration: none;
+  }
+  .row {
+    margin-top: 2em;
+    &:first-of-type {
+      margin-top: 0;
+    }
   }
 }
 
@@ -113,5 +120,24 @@ h1, h2, h3, h4, h5, h6 {
       }
       margin-top: 0;
     }
+  }
+}
+
+/* dates page */
+
+  .dates {
+    .row {
+      text-align: left;
+      font-size: 1.2em;
+    }
+  }
+
+
+/*icon position*/
+.pro {
+  .fa {
+    position: relative;
+    top: -3px;
+    padding-right: 0.3em;
   }
 }
